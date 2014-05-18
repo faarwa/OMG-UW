@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7F4C5218B8689400236A69 /* OMGUWSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F4C5118B8689400236A69 /* OMGUWSubmission.m */; };
+		2C8C76DC18BF0BB300ECE06B /* OMGUWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C76DB18BF0BB300ECE06B /* OMGUWCell.m */; };
+		2C8C76DF18BF112C00ECE06B /* UWCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C76DE18BF112C00ECE06B /* UWCommentsViewController.m */; };
+		2C8F65E218B84EA900DEFC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65E118B84EA900DEFC7B /* Foundation.framework */; };
+		2C8F65E418B84EA900DEFC7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65E318B84EA900DEFC7B /* CoreGraphics.framework */; };
+		2C8F65E618B84EA900DEFC7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65E518B84EA900DEFC7B /* UIKit.framework */; };
+		2C8F65EC18B84EA900DEFC7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F65EA18B84EA900DEFC7B /* InfoPlist.strings */; };
+		2C8F65EE18B84EA900DEFC7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F65ED18B84EA900DEFC7B /* main.m */; };
+		2C8F65F218B84EA900DEFC7B /* UWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F65F118B84EA900DEFC7B /* UWAppDelegate.m */; };
+		2C8F65F418B84EA900DEFC7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F65F318B84EA900DEFC7B /* Images.xcassets */; };
+		2C8F65FB18B84EA900DEFC7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65FA18B84EA900DEFC7B /* XCTest.framework */; };
+		2C8F65FC18B84EA900DEFC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65E118B84EA900DEFC7B /* Foundation.framework */; };
+		2C8F65FD18B84EA900DEFC7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F65E518B84EA900DEFC7B /* UIKit.framework */; };
+		2C8F660518B84EA900DEFC7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F660318B84EA900DEFC7B /* InfoPlist.strings */; };
+		2C8F660718B84EA900DEFC7B /* OMG_UWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F660618B84EA900DEFC7B /* OMG_UWTests.m */; };
+		2C8F661318B84EC900DEFC7B /* OMGUWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F661118B84EC900DEFC7B /* OMGUWBaseViewController.m */; };
+		2C8F661418B84EC900DEFC7B /* OMGUWBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F661218B84EC900DEFC7B /* OMGUWBaseViewController.xib */; };
+		2C8F661718B84F1E00DEFC7B /* OMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F661618B84F1E00DEFC7B /* OMGViewController.m */; };
+		2C8F661A18B84F5900DEFC7B /* header_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F661818B84F5900DEFC7B /* header_image.jpg */; };
+		2C8F661B18B84F5900DEFC7B /* header_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8F661918B84F5900DEFC7B /* header_image@2x.jpg */; };
+		2C8F662118B8549000DEFC7B /* UWStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F662018B8549000DEFC7B /* UWStyle.m */; };
+		2C8F662418B8598F00DEFC7B /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F662318B8598F00DEFC7B /* MCViewController.m */; };
+		2C8F662718B859AF00DEFC7B /* OverheardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F662618B859AF00DEFC7B /* OverheardViewController.m */; };
+		2C8F662A18B859C000DEFC7B /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F662918B859C000DEFC7B /* AskViewController.m */; };
+		2CC1C8CD18BE78360050AB8A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1C8CC18BE78360050AB8A /* SettingsViewController.m */; };
+		4A2C47B318D54E5F00E21656 /* chat-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A018D54E5F00E21656 /* chat-active.png */; };
+		4A2C47B418D54E5F00E21656 /* chat-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A118D54E5F00E21656 /* chat-active@2x.png */; };
+		4A2C47B518D54E5F00E21656 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A218D54E5F00E21656 /* Default-568h@2x.png */; };
+		4A2C47B618D54E5F00E21656 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A318D54E5F00E21656 /* Default.png */; };
+		4A2C47B718D54E5F00E21656 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A418D54E5F00E21656 /* Default@2x.png */; };
+		4A2C47B818D54E5F00E21656 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A518D54E5F00E21656 /* edit.png */; };
+		4A2C47B918D54E5F00E21656 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A618D54E5F00E21656 /* edit@2x.png */; };
+		4A2C47BA18D54E5F00E21656 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A718D54E5F00E21656 /* help.png */; };
+		4A2C47BB18D54E5F00E21656 /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A818D54E5F00E21656 /* help@2x.png */; };
+		4A2C47BC18D54E5F00E21656 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47A918D54E5F00E21656 /* Icon.png */; };
+		4A2C47BD18D54E5F00E21656 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47AA18D54E5F00E21656 /* Icon@2x.png */; };
+		4A2C47BE18D54E5F00E21656 /* OMGUWComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47AC18D54E5F00E21656 /* OMGUWComment.m */; };
+		4A2C47BF18D54E5F00E21656 /* users-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47AD18D54E5F00E21656 /* users-alt.png */; };
+		4A2C47C018D54E5F00E21656 /* users-alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C47AE18D54E5F00E21656 /* users-alt@2x.png */; };
+		4A2C47C118D54E5F00E21656 /* UWContentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47B018D54E5F00E21656 /* UWContentBaseViewController.m */; };
+		4A2C47C218D54E5F00E21656 /* UWScrollToTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47B218D54E5F00E21656 /* UWScrollToTopView.m */; };
+		4A2C47C518D55D9C00E21656 /* OMGUWContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47C418D55D9C00E21656 /* OMGUWContent.m */; };
+		4A2C47C818D5652C00E21656 /* OMGUWCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47C718D5652C00E21656 /* OMGUWCommentCell.m */; };
+		4A2C47CB18D5697B00E21656 /* OMGUWSubmissionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C47CA18D5697B00E21656 /* OMGUWSubmissionCell.m */; };
+		D01B717D9C6E468FA26FF824 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5C8D11B884B3BBB53A0E7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8F65FE18B84EA900DEFC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8F65D618B84EA900DEFC7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8F65DD18B84EA900DEFC7B;
+			remoteInfo = "OMG UW";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D5C8D11B884B3BBB53A0E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7F4C5018B8689400236A69 /* OMGUWSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWSubmission.h; sourceTree = "<group>"; };
+		2C7F4C5118B8689400236A69 /* OMGUWSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWSubmission.m; sourceTree = "<group>"; };
+		2C8C76DA18BF0BB300ECE06B /* OMGUWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWCell.h; sourceTree = "<group>"; };
+		2C8C76DB18BF0BB300ECE06B /* OMGUWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWCell.m; sourceTree = "<group>"; };
+		2C8C76DD18BF112C00ECE06B /* UWCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWCommentsViewController.h; sourceTree = "<group>"; };
+		2C8C76DE18BF112C00ECE06B /* UWCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWCommentsViewController.m; sourceTree = "<group>"; };
+		2C8F65DE18B84EA900DEFC7B /* OMG UW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OMG UW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F65E118B84EA900DEFC7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C8F65E318B84EA900DEFC7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C8F65E518B84EA900DEFC7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C8F65E918B84EA900DEFC7B /* OMG UW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OMG UW-Info.plist"; sourceTree = "<group>"; };
+		2C8F65EB18B84EA900DEFC7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C8F65ED18B84EA900DEFC7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C8F65EF18B84EA900DEFC7B /* OMG UW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMG UW-Prefix.pch"; sourceTree = "<group>"; };
+		2C8F65F018B84EA900DEFC7B /* UWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWAppDelegate.h; sourceTree = "<group>"; };
+		2C8F65F118B84EA900DEFC7B /* UWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWAppDelegate.m; sourceTree = "<group>"; };
+		2C8F65F318B84EA900DEFC7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C8F65F918B84EA900DEFC7B /* OMG UWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OMG UWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F65FA18B84EA900DEFC7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C8F660218B84EA900DEFC7B /* OMG UWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OMG UWTests-Info.plist"; sourceTree = "<group>"; };
+		2C8F660418B84EA900DEFC7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C8F660618B84EA900DEFC7B /* OMG_UWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMG_UWTests.m; sourceTree = "<group>"; };
+		2C8F661018B84EC900DEFC7B /* OMGUWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWBaseViewController.h; sourceTree = "<group>"; };
+		2C8F661118B84EC900DEFC7B /* OMGUWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWBaseViewController.m; sourceTree = "<group>"; };
+		2C8F661218B84EC900DEFC7B /* OMGUWBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OMGUWBaseViewController.xib; sourceTree = "<group>"; };
+		2C8F661518B84F1E00DEFC7B /* OMGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGViewController.h; sourceTree = "<group>"; };
+		2C8F661618B84F1E00DEFC7B /* OMGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGViewController.m; sourceTree = "<group>"; };
+		2C8F661818B84F5900DEFC7B /* header_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = header_image.jpg; path = Resources/header_image.jpg; sourceTree = "<group>"; };
+		2C8F661918B84F5900DEFC7B /* header_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "header_image@2x.jpg"; path = "Resources/header_image@2x.jpg"; sourceTree = "<group>"; };
+		2C8F661F18B8549000DEFC7B /* UWStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWStyle.h; sourceTree = "<group>"; };
+		2C8F662018B8549000DEFC7B /* UWStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWStyle.m; sourceTree = "<group>"; };
+		2C8F662218B8598F00DEFC7B /* MCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		2C8F662318B8598F00DEFC7B /* MCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		2C8F662518B859AF00DEFC7B /* OverheardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverheardViewController.h; sourceTree = "<group>"; };
+		2C8F662618B859AF00DEFC7B /* OverheardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverheardViewController.m; sourceTree = "<group>"; };
+		2C8F662818B859C000DEFC7B /* AskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskViewController.h; sourceTree = "<group>"; };
+		2C8F662918B859C000DEFC7B /* AskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskViewController.m; sourceTree = "<group>"; };
+		2CAFE8C518B879080094CF97 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2CC1C8CB18BE78360050AB8A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2CC1C8CC18BE78360050AB8A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4A2C47A018D54E5F00E21656 /* chat-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-active.png"; sourceTree = "<group>"; };
+		4A2C47A118D54E5F00E21656 /* chat-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-active@2x.png"; sourceTree = "<group>"; };
+		4A2C47A218D54E5F00E21656 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A2C47A318D54E5F00E21656 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A2C47A418D54E5F00E21656 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A2C47A518D54E5F00E21656 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		4A2C47A618D54E5F00E21656 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
+		4A2C47A718D54E5F00E21656 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		4A2C47A818D54E5F00E21656 /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
+		4A2C47A918D54E5F00E21656 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4A2C47AA18D54E5F00E21656 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4A2C47AB18D54E5F00E21656 /* OMGUWComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWComment.h; sourceTree = "<group>"; };
+		4A2C47AC18D54E5F00E21656 /* OMGUWComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWComment.m; sourceTree = "<group>"; };
+		4A2C47AD18D54E5F00E21656 /* users-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "users-alt.png"; sourceTree = "<group>"; };
+		4A2C47AE18D54E5F00E21656 /* users-alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "users-alt@2x.png"; sourceTree = "<group>"; };
+		4A2C47AF18D54E5F00E21656 /* UWContentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWContentBaseViewController.h; sourceTree = "<group>"; };
+		4A2C47B018D54E5F00E21656 /* UWContentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWContentBaseViewController.m; sourceTree = "<group>"; };
+		4A2C47B118D54E5F00E21656 /* UWScrollToTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWScrollToTopView.h; sourceTree = "<group>"; };
+		4A2C47B218D54E5F00E21656 /* UWScrollToTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWScrollToTopView.m; sourceTree = "<group>"; };
+		4A2C47C318D55D9C00E21656 /* OMGUWContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWContent.h; sourceTree = "<group>"; };
+		4A2C47C418D55D9C00E21656 /* OMGUWContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWContent.m; sourceTree = "<group>"; };
+		4A2C47C618D5652C00E21656 /* OMGUWCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWCommentCell.h; sourceTree = "<group>"; };
+		4A2C47C718D5652C00E21656 /* OMGUWCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWCommentCell.m; sourceTree = "<group>"; };
+		4A2C47C918D5697B00E21656 /* OMGUWSubmissionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUWSubmissionCell.h; sourceTree = "<group>"; };
+		4A2C47CA18D5697B00E21656 /* OMGUWSubmissionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUWSubmissionCell.m; sourceTree = "<group>"; };
+		9A3BF991CEFE434AA49F7763 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8F65DB18B84EA900DEFC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F65E418B84EA900DEFC7B /* CoreGraphics.framework in Frameworks */,
+				2C8F65E618B84EA900DEFC7B /* UIKit.framework in Frameworks */,
+				2C8F65E218B84EA900DEFC7B /* Foundation.framework in Frameworks */,
+				D01B717D9C6E468FA26FF824 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8F65F618B84EA900DEFC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F65FB18B84EA900DEFC7B /* XCTest.framework in Frameworks */,
+				2C8F65FD18B84EA900DEFC7B /* UIKit.framework in Frameworks */,
+				2C8F65FC18B84EA900DEFC7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8F65D518B84EA900DEFC7B = {
+			isa = PBXGroup;
+			children = (
+				2C8F65E718B84EA900DEFC7B /* OMG UW */,
+				2C8F660018B84EA900DEFC7B /* OMG UWTests */,
+				2C8F65E018B84EA900DEFC7B /* Frameworks */,
+				2C8F65DF18B84EA900DEFC7B /* Products */,
+				9A3BF991CEFE434AA49F7763 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8F65DF18B84EA900DEFC7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F65DE18B84EA900DEFC7B /* OMG UW.app */,
+				2C8F65F918B84EA900DEFC7B /* OMG UWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8F65E018B84EA900DEFC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFE8C518B879080094CF97 /* libxml2.dylib */,
+				2C8F65E118B84EA900DEFC7B /* Foundation.framework */,
+				2C8F65E318B84EA900DEFC7B /* CoreGraphics.framework */,
+				2C8F65E518B84EA900DEFC7B /* UIKit.framework */,
+				2C8F65FA18B84EA900DEFC7B /* XCTest.framework */,
+				04D5C8D11B884B3BBB53A0E7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C8F65E718B84EA900DEFC7B /* OMG UW */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F661C18B84F6500DEFC7B /* Resources */,
+				2C8F65F018B84EA900DEFC7B /* UWAppDelegate.h */,
+				2C8F65F118B84EA900DEFC7B /* UWAppDelegate.m */,
+				2C8F661018B84EC900DEFC7B /* OMGUWBaseViewController.h */,
+				2C8F661118B84EC900DEFC7B /* OMGUWBaseViewController.m */,
+				2C8F661218B84EC900DEFC7B /* OMGUWBaseViewController.xib */,
+				4A2C47AF18D54E5F00E21656 /* UWContentBaseViewController.h */,
+				4A2C47B018D54E5F00E21656 /* UWContentBaseViewController.m */,
+				2C8F661518B84F1E00DEFC7B /* OMGViewController.h */,
+				2C8F661618B84F1E00DEFC7B /* OMGViewController.m */,
+				2C8F662218B8598F00DEFC7B /* MCViewController.h */,
+				2C8F662318B8598F00DEFC7B /* MCViewController.m */,
+				2C8F662518B859AF00DEFC7B /* OverheardViewController.h */,
+				2C8F662618B859AF00DEFC7B /* OverheardViewController.m */,
+				2C8F662818B859C000DEFC7B /* AskViewController.h */,
+				2C8F662918B859C000DEFC7B /* AskViewController.m */,
+				2C8C76DD18BF112C00ECE06B /* UWCommentsViewController.h */,
+				2C8C76DE18BF112C00ECE06B /* UWCommentsViewController.m */,
+				2CC1C8CB18BE78360050AB8A /* SettingsViewController.h */,
+				2CC1C8CC18BE78360050AB8A /* SettingsViewController.m */,
+				2C8C76DA18BF0BB300ECE06B /* OMGUWCell.h */,
+				2C8C76DB18BF0BB300ECE06B /* OMGUWCell.m */,
+				4A2C47C918D5697B00E21656 /* OMGUWSubmissionCell.h */,
+				4A2C47CA18D5697B00E21656 /* OMGUWSubmissionCell.m */,
+				4A2C47C618D5652C00E21656 /* OMGUWCommentCell.h */,
+				4A2C47C718D5652C00E21656 /* OMGUWCommentCell.m */,
+				4A2C47B118D54E5F00E21656 /* UWScrollToTopView.h */,
+				4A2C47B218D54E5F00E21656 /* UWScrollToTopView.m */,
+				2C8F661F18B8549000DEFC7B /* UWStyle.h */,
+				2C8F662018B8549000DEFC7B /* UWStyle.m */,
+				4A2C47C318D55D9C00E21656 /* OMGUWContent.h */,
+				4A2C47C418D55D9C00E21656 /* OMGUWContent.m */,
+				2C7F4C5018B8689400236A69 /* OMGUWSubmission.h */,
+				2C7F4C5118B8689400236A69 /* OMGUWSubmission.m */,
+				4A2C47AB18D54E5F00E21656 /* OMGUWComment.h */,
+				4A2C47AC18D54E5F00E21656 /* OMGUWComment.m */,
+				2C8F65F318B84EA900DEFC7B /* Images.xcassets */,
+				2C8F65E818B84EA900DEFC7B /* Supporting Files */,
+			);
+			path = "OMG UW";
+			sourceTree = "<group>";
+		};
+		2C8F65E818B84EA900DEFC7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F65E918B84EA900DEFC7B /* OMG UW-Info.plist */,
+				2C8F65EA18B84EA900DEFC7B /* InfoPlist.strings */,
+				2C8F65ED18B84EA900DEFC7B /* main.m */,
+				2C8F65EF18B84EA900DEFC7B /* OMG UW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C8F660018B84EA900DEFC7B /* OMG UWTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F660618B84EA900DEFC7B /* OMG_UWTests.m */,
+				2C8F660118B84EA900DEFC7B /* Supporting Files */,
+			);
+			path = "OMG UWTests";
+			sourceTree = "<group>";
+		};
+		2C8F660118B84EA900DEFC7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F660218B84EA900DEFC7B /* OMG UWTests-Info.plist */,
+				2C8F660318B84EA900DEFC7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C8F661C18B84F6500DEFC7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C47AD18D54E5F00E21656 /* users-alt.png */,
+				4A2C47AE18D54E5F00E21656 /* users-alt@2x.png */,
+				4A2C47A018D54E5F00E21656 /* chat-active.png */,
+				4A2C47A118D54E5F00E21656 /* chat-active@2x.png */,
+				4A2C47A218D54E5F00E21656 /* Default-568h@2x.png */,
+				4A2C47A318D54E5F00E21656 /* Default.png */,
+				4A2C47A418D54E5F00E21656 /* Default@2x.png */,
+				4A2C47A518D54E5F00E21656 /* edit.png */,
+				4A2C47A618D54E5F00E21656 /* edit@2x.png */,
+				4A2C47A718D54E5F00E21656 /* help.png */,
+				4A2C47A818D54E5F00E21656 /* help@2x.png */,
+				4A2C47A918D54E5F00E21656 /* Icon.png */,
+				4A2C47AA18D54E5F00E21656 /* Icon@2x.png */,
+				2C8F661818B84F5900DEFC7B /* header_image.jpg */,
+				2C8F661918B84F5900DEFC7B /* header_image@2x.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8F65DD18B84EA900DEFC7B /* OMG UW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8F660A18B84EA900DEFC7B /* Build configuration list for PBXNativeTarget "OMG UW" */;
+			buildPhases = (
+				8B4BAE95E273415792AA3204 /* Check Pods Manifest.lock */,
+				2C8F65DA18B84EA900DEFC7B /* Sources */,
+				2C8F65DB18B84EA900DEFC7B /* Frameworks */,
+				2C8F65DC18B84EA900DEFC7B /* Resources */,
+				C81BC9899E724E679F0EF05B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OMG UW";
+			productName = "OMG UW";
+			productReference = 2C8F65DE18B84EA900DEFC7B /* OMG UW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8F65F818B84EA900DEFC7B /* OMG UWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8F660D18B84EA900DEFC7B /* Build configuration list for PBXNativeTarget "OMG UWTests" */;
+			buildPhases = (
+				2C8F65F518B84EA900DEFC7B /* Sources */,
+				2C8F65F618B84EA900DEFC7B /* Frameworks */,
+				2C8F65F718B84EA900DEFC7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8F65FF18B84EA900DEFC7B /* PBXTargetDependency */,
+			);
+			name = "OMG UWTests";
+			productName = "OMG UWTests";
+			productReference = 2C8F65F918B84EA900DEFC7B /* OMG UWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8F65D618B84EA900DEFC7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Farwa Naqi";
+				TargetAttributes = {
+					2C8F65F818B84EA900DEFC7B = {
+						TestTargetID = 2C8F65DD18B84EA900DEFC7B;
+					};
+				};
+			};
+			buildConfigurationList = 2C8F65D918B84EA900DEFC7B /* Build configuration list for PBXProject "OMG UW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C8F65D518B84EA900DEFC7B;
+			productRefGroup = 2C8F65DF18B84EA900DEFC7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8F65DD18B84EA900DEFC7B /* OMG UW */,
+				2C8F65F818B84EA900DEFC7B /* OMG UWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8F65DC18B84EA900DEFC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2C47B418D54E5F00E21656 /* chat-active@2x.png in Resources */,
+				2C8F65EC18B84EA900DEFC7B /* InfoPlist.strings in Resources */,
+				4A2C47B518D54E5F00E21656 /* Default-568h@2x.png in Resources */,
+				2C8F661418B84EC900DEFC7B /* OMGUWBaseViewController.xib in Resources */,
+				4A2C47BC18D54E5F00E21656 /* Icon.png in Resources */,
+				4A2C47BF18D54E5F00E21656 /* users-alt.png in Resources */,
+				4A2C47B818D54E5F00E21656 /* edit.png in Resources */,
+				4A2C47BA18D54E5F00E21656 /* help.png in Resources */,
+				4A2C47B718D54E5F00E21656 /* Default@2x.png in Resources */,
+				2C8F661B18B84F5900DEFC7B /* header_image@2x.jpg in Resources */,
+				4A2C47C018D54E5F00E21656 /* users-alt@2x.png in Resources */,
+				2C8F661A18B84F5900DEFC7B /* header_image.jpg in Resources */,
+				4A2C47B318D54E5F00E21656 /* chat-active.png in Resources */,
+				4A2C47BB18D54E5F00E21656 /* help@2x.png in Resources */,
+				4A2C47BD18D54E5F00E21656 /* Icon@2x.png in Resources */,
+				4A2C47B918D54E5F00E21656 /* edit@2x.png in Resources */,
+				2C8F65F418B84EA900DEFC7B /* Images.xcassets in Resources */,
+				4A2C47B618D54E5F00E21656 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8F65F718B84EA900DEFC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F660518B84EA900DEFC7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B4BAE95E273415792AA3204 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C81BC9899E724E679F0EF05B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8F65DA18B84EA900DEFC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F661718B84F1E00DEFC7B /* OMGViewController.m in Sources */,
+				2C8F661318B84EC900DEFC7B /* OMGUWBaseViewController.m in Sources */,
+				2C8F65F218B84EA900DEFC7B /* UWAppDelegate.m in Sources */,
+				4A2C47C518D55D9C00E21656 /* OMGUWContent.m in Sources */,
+				2C8F65EE18B84EA900DEFC7B /* main.m in Sources */,
+				4A2C47CB18D5697B00E21656 /* OMGUWSubmissionCell.m in Sources */,
+				4A2C47BE18D54E5F00E21656 /* OMGUWComment.m in Sources */,
+				2C7F4C5218B8689400236A69 /* OMGUWSubmission.m in Sources */,
+				2C8F662A18B859C000DEFC7B /* AskViewController.m in Sources */,
+				4A2C47C118D54E5F00E21656 /* UWContentBaseViewController.m in Sources */,
+				2C8C76DC18BF0BB300ECE06B /* OMGUWCell.m in Sources */,
+				2C8F662718B859AF00DEFC7B /* OverheardViewController.m in Sources */,
+				4A2C47C218D54E5F00E21656 /* UWScrollToTopView.m in Sources */,
+				2C8C76DF18BF112C00ECE06B /* UWCommentsViewController.m in Sources */,
+				2C8F662418B8598F00DEFC7B /* MCViewController.m in Sources */,
+				2C8F662118B8549000DEFC7B /* UWStyle.m in Sources */,
+				4A2C47C818D5652C00E21656 /* OMGUWCommentCell.m in Sources */,
+				2CC1C8CD18BE78360050AB8A /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8F65F518B84EA900DEFC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8F660718B84EA900DEFC7B /* OMG_UWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8F65FF18B84EA900DEFC7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8F65DD18B84EA900DEFC7B /* OMG UW */;
+			targetProxy = 2C8F65FE18B84EA900DEFC7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C8F65EA18B84EA900DEFC7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8F65EB18B84EA900DEFC7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C8F660318B84EA900DEFC7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8F660418B84EA900DEFC7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C8F660818B84EA900DEFC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8F660918B84EA900DEFC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C8F660B18B84EA900DEFC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3BF991CEFE434AA49F7763 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMG UW/OMG UW-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "OMG UW/OMG UW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C8F660C18B84EA900DEFC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3BF991CEFE434AA49F7763 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMG UW/OMG UW-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "OMG UW/OMG UW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C8F660E18B84EA900DEFC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OMG UW.app/OMG UW";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMG UW/OMG UW-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OMG UWTests/OMG UWTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C8F660F18B84EA900DEFC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OMG UW.app/OMG UW";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMG UW/OMG UW-Prefix.pch";
+				INFOPLIST_FILE = "OMG UWTests/OMG UWTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8F65D918B84EA900DEFC7B /* Build configuration list for PBXProject "OMG UW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8F660818B84EA900DEFC7B /* Debug */,
+				2C8F660918B84EA900DEFC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8F660A18B84EA900DEFC7B /* Build configuration list for PBXNativeTarget "OMG UW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8F660B18B84EA900DEFC7B /* Debug */,
+				2C8F660C18B84EA900DEFC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8F660D18B84EA900DEFC7B /* Build configuration list for PBXNativeTarget "OMG UWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8F660E18B84EA900DEFC7B /* Debug */,
+				2C8F660F18B84EA900DEFC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8F65D618B84EA900DEFC7B /* Project object */;
+}
